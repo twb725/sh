@@ -1,3 +1,4 @@
+#!/bin/bash
 #backup sources.list
 cp /etc/apt/sources.list /etc/apt/sources.list.back
 #add kali sources
