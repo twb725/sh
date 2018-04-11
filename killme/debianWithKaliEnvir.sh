@@ -10,7 +10,7 @@ echo # deb-src http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contri
 apt-key adv --keyserver keyserver.ubuntu.com --recv ED444FF07D8D0BF6
 #reflash local update packages & and upgrade it
 apt-get update 
-apt-get -y upgrade
+apt-get upgrade
 # install pip tool
 apt-get -y install python-pip tree screen
 echo !!  it's all done   !!
