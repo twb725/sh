@@ -13,4 +13,8 @@ apt-get update
 apt-get upgrade
 # install pip tool
 apt-get install python-pip tree screen git-core
-echo !!  it's all done   !!
+echo ======it's all done======
+echo ======it's all done======
+echo ======it's all done======
+echo ======it's all done======
+echo ======it's all done======
