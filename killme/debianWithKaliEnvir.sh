@@ -10,4 +10,6 @@ apt-key adv --keyserver keyserver.ubuntu.com --recv ED444FF07D8D0BF6
 #reflash local update packages & and upgrade it
 apt-get update 
 apt-get upgrade
+# install pip tool
+apt-get install python-pip
 echo !!  it's all done   !!
