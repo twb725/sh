@@ -7,7 +7,7 @@ echo deb-src http://http.kali.org/kali kali-rolling main non-free contrib >> /et
 echo # deb http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib  >> /etc/apt/sources.list
 echo # deb-src http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib  >> /etc/apt/sources.list
 #add apt-key 
-apt-key adv --keyserver keyserver.ubuntu.com --recv ED444FF07D8D0BF6
+apt-key adv --keyserver hkp://keys.gnupg.net --recv-keys 7D8D0BF6
 #reflash local update packages & and upgrade it
 apt-get update 
 apt-get upgrade
