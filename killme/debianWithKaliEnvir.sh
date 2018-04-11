@@ -11,5 +11,6 @@ apt-key adv --keyserver keyserver.ubuntu.com --recv ED444FF07D8D0BF6
 apt-get update 
 apt-get upgrade
 # install pip tool
-apt-get install python-pip tree
+apt-get install python-pip tree screen
+echo !!  it's all done   !!
 echo !!  it's all done   !!
