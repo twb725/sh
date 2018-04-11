@@ -1,12 +1,12 @@
 # BONG!!!!!
 
-## 杀死abc.exe进程
+### 杀死abc.exe进程
   taskkill /im abc.exe /f
 
-## 列出所有进程
+### 列出所有进程
   tasklist
 
-## 关闭防火墙
+### 关闭防火墙
   cmd /c netsh firewall set opmode mode=diable
 
 详细命令：netsh firewall 
@@ -54,21 +54,21 @@ netsh firewall set icmpsettting type=ALL mode=enable //开启ICMP协议
 netsh firewall set icmpsettting type=2 mode=enable  //允许出站数据包太大
 
 
-## 创建/删除服务
+### 创建/删除服务
 sc create test binPath="C:\123\456\789\test.exe"
 sc delete test
 
-## 配置服务
+### 配置服务
 sc config test start= AUTO      //自动启动 start=后面有空格，不能少。
 sc config test start= DEMAND    //手动
 sc config test start= DISABLED  //禁用
 
-## 开启/关闭服务
+### 开启/关闭服务
 net start test     //net用于打开没有被禁用的服务
 net stop test
 sc start test
 sc stop test
 
-## 查询服务 
+### 查询服务 
 sc query  //查询所有
 sc query test
