@@ -1,13 +1,13 @@
 # BONG!!!!!
 
 ## 杀死abc.exe进程
-taskkill /im abc.exe /f
+  taskkill /im abc.exe /f
 
 ## 列出所有进程
-tasklist
+  tasklist
 
 ## 关闭防火墙
-cmd /c netsh firewall set opmode mode=diable
+  cmd /c netsh firewall set opmode mode=diable
 
 详细命令：netsh firewall 
 参数： 
